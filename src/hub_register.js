@@ -53,7 +53,7 @@ var nodeconf = function(ip, port, hub, proxy, version, remoteHost) {
                 browserName: "phantomjs",
                 version: version,
                 platform: platform,
-                maxInstances: 10,
+                maxInstances: 1,
                 seleniumProtocol: "WebDriver"
             }],
             configuration: {
